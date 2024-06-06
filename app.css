@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 360px;
-    height: 500px;
+    height: 450px;
     border-radius: 10px;
     background-color: #FFFFFF;
 }
@@ -39,9 +39,9 @@ body{
 }
 .cardContent{
     padding: 0px 6px 0px 25px;
-    margin-top: -2px;
+    margin-top: -8px;
     color: #677489;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 .divider{
     width: 100%;
@@ -59,7 +59,7 @@ body{
     width: 35px;
     height: 35px;
     border-radius: 50%;
-    border:5px solid rgba(145, 140, 140, 0.166);
+    border:5px solid rgba(145, 140, 140, 0.099);
 }
 .lato-bold {
     font-family: "Lato", sans-serif;
@@ -68,16 +68,20 @@ body{
 }
 .avaterName{
     color: #111729;
-    font-size: 1rem;
-    padding-top: 12px;
+    font-size: 0.8rem;
 }
 .lato-light {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-style: normal;
   }
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 .avterHeadline{
     color: #677489;
-    font-size: 1rem;
+    font-size: 0.7rem;
     margin-top: -10px;
 }
