@@ -1,0 +1,83 @@
+body{
+    background-color: #F2F5F9;
+}
+.card{
+    margin: 160px auto;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+.card img{
+    max-width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.footerImage{
+   margin-top: -50px;
+}
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.titleCard{
+    font-size: 1.2rem;
+    color: #111729;
+    padding: 0px 6px 0px 25px;
+    margin-top: -1px;
+    width: 300px;
+}
+.cardContent{
+    padding: 0px 6px 0px 25px;
+    margin-top: -2px;
+    color: #677489;
+    font-size: 1rem;
+}
+.divider{
+    width: 100%;
+    border-top: 0px solid #677489;
+}
+.cardFooter{
+    display: flex;
+    padding: 0px 6px 0px 25px;
+    gap: 15px;
+    align-items: baseline;
+    justify-content: baseline;
+    align-self: baseline;
+}
+.cardFooter img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border:5px solid rgba(145, 140, 140, 0.166);
+}
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.avaterName{
+    color: #111729;
+    font-size: 1rem;
+    padding-top: 12px;
+}
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+.avterHeadline{
+    color: #677489;
+    font-size: 1rem;
+    margin-top: -10px;
+}
